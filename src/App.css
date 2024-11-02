@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "AvenirNextCyr"; 
+    src: url("./AvenirNextCyr-Medium.ttf"); 
+} 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "AvenirNextCyr";
+}
+#root{
+    height: 100vh;
+    width: 100%;
+}
+
+  

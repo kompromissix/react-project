@@ -1,0 +1,75 @@
+.background2{
+    height: 913px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(114deg, #022335, #043A41);
+    color: white;
+}
+.Ai-block{
+    width: 771px;
+    height: 687px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 100;
+    padding-right: 209px;
+}
+.absolute-image{
+    position: absolute;
+    background-image: url('./Ai-assets/ai_artificial_intelligence_ml_machine_learning_vector_by_kohb_gettyimages_1146634284-100817775-large1.png');
+    background-repeat: no-repeat;
+    mix-blend-mode: lighten;
+    width: 931px;
+    height: 625px;
+    filter: brightness(150%);
+    margin-left: 709px;
+}
+.buttom-aqua{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #03E1FF, #13CDC2);
+    height: 60px;
+    width: 479px;
+    border-radius: 9px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.Ai-block > p{
+    font-size: 54px;
+    width: 771px;
+    text-transform: uppercase;
+
+}
+.Ai-block > p > span{
+    color: #4ABCEC;
+}
+.boxing{
+    display: flex;
+    background: linear-gradient(-90deg, rgba(0,0,0,0), #1F3F4D );
+    min-height: 61px;
+    max-height: 118px;
+    width: 720px;
+    height: max-content;
+}
+.boxing > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+}
+.box-info-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 368px;
+}

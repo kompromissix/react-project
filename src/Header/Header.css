@@ -1,0 +1,130 @@
+header{
+    width: 100%;
+    height: 1006px;
+    background-image: url('./Header-assets/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 206px;
+    color: white;
+    font-size: 18px;
+}
+.glaz-na-kovkaz{
+    height: 300px;
+    width: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.glaz-na-kovkaz p{
+    transform: rotate(-90deg);
+    color: #00E0FF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 451px;
+}
+.header-bottom{
+    width: 1062px;
+    height: 696px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 500px;
+}
+.glaz-na-kovkaz > div{
+    background-image: url('./Header-assets/Ellipse8.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 139px;
+    height: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glaz-na-kovkaz > div > div{
+    background: linear-gradient(to bottom, #03E1FF, #13CDC2);
+    border-radius: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backgr{
+    background-image: url('./Header-assets/Rectangle2.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 71px;
+    width: 71px;
+}
+.VeraVla{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 696px;
+}
+.VeraVla > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 541px;
+}
+.VeraVlaEdu{
+    height: 214px;
+    width: 806px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.VeraVlaEdu h1{
+    font-size: 108px;
+    background: linear-gradient(to bottom, #FFFFFF 32%, #1A3031);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.VeraVlaEdu p{
+    font-size: 18px;
+    color: #747D81;
+}
+.VeraVlaEdu h2{
+    font-size: 18px;
+    color: white;
+}
+.diplom-div{
+    display: flex;
+    justify-content: space-between;
+    width: 575px;
+    height: 89px;
+}
+.diplom-div span{
+    color: white;
+  
+}
+.diplom-div p{
+    color: #00E0FF;
+    width: 472px;
+    height: 86px;
+    font-size: 18px;
+}
